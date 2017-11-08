@@ -1,6 +1,6 @@
 {
   "name": "cbml-ast",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Abstract syntax tree of CBML the type definitions",
   "main": "cbml-ast.js",
   "typings": "cbml-ast.ts",
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/cbml/cbml-ast/issues"
   },
-  "homepage": "https://github.com/cbml/cbml-ast#readme"
+  "homepage": "https://github.com/cbml/cbml-ast#readme",
+  "readme": "README.md"
 }
