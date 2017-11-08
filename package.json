@@ -1,0 +1,23 @@
+{
+  "name": "cbml-ast",
+  "version": "0.0.2",
+  "description": "Abstract syntax tree of CBML the type definitions",
+  "main": "cbml-ast.js",
+  "typings": "cbml-ast.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbml/cbml-ast.git"
+  },
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbml/cbml-ast/issues"
+  },
+  "homepage": "https://github.com/cbml/cbml-ast#readme"
+}
