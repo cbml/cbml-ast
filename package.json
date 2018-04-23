@@ -1,9 +1,9 @@
 {
   "name": "cbml-ast",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Abstract syntax tree of CBML the type definitions",
-  "main": "cbml-ast.js",
-  "typings": "cbml-ast.ts",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "_update_version": "node version.js",
     "_dist": "gulp dist",
