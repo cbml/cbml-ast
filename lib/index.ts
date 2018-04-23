@@ -46,6 +46,10 @@ export interface Position {
    * 列号
    */
   column: number // >= 0
+  /**
+   * 代码位置
+   */
+  offset: number // >= 0
 }
 
 /**

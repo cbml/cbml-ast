@@ -1,11 +1,13 @@
 {
   "name": "cbml-ast",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Abstract syntax tree of CBML the type definitions",
   "main": "cbml-ast.js",
   "typings": "cbml-ast.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "_update_version": "node version.js",
+    "_dist": "gulp dist",
+    "dist": "npm run _update_version && npm run _dist"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,18 @@
     "url": "https://github.com/cbml/cbml-ast/issues"
   },
   "homepage": "https://github.com/cbml/cbml-ast#readme",
-  "readme": "README.md"
+  "readme": "README.md",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "istanbul": "^0.3.17",
+    "merge2": "^1.1.0",
+    "mocha": "^2.0.1",
+    "request": "^2.83.0",
+    "should": "^4.1.0",
+    "typescript": "^2.0.3"
+  },
+  "files": [
+    "lib"
+  ]
 }
