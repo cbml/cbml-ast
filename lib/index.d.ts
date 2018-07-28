@@ -52,7 +52,7 @@ export interface Position {
 /**
  * 代码块所用语言
  */
-export declare type Language = 'xml' | 'c' | 'pascal' | 'python' | 'lua' | 'cbml';
+export declare type Language = 'xml' | 'c' | 'pascal' | 'python' | 'lua' | 'cbml' | 'shell' | 'common';
 /**
  * 属性
  */

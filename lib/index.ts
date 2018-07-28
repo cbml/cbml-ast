@@ -55,7 +55,7 @@ export interface Position {
 /**
  * 代码块所用语言
  */
-export type Language = 'xml' | 'c' | 'pascal' | 'python' | 'lua' | 'cbml'
+export type Language = 'xml' | 'c' | 'pascal' | 'python' | 'lua' | 'cbml' | 'shell' | 'common'
 
 /**
  * 属性

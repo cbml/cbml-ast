@@ -55,7 +55,7 @@ export interface Position {
 /**
  * 代码块所用语言
  */
-export type Language = 'xml' | 'c' | 'pascal' | 'python' | 'lua' | 'cbml'
+export type Language = 'xml' | 'c' | 'pascal' | 'python' | 'lua' | 'cbml' | 'shell' | 'common'
 
 /**
  * 属性
@@ -95,7 +95,7 @@ export interface ContainerElement extends Element {
 }
 
 /**
- * CBML 根元素
+ * CBML 根元素<!--{en}CBML root element-->
  */
 export interface CBMLElement extends ContainerElement {
   tag: '#cbml'

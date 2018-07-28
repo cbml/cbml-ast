@@ -1,6 +1,6 @@
 {
   "name": "cbml-ast",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Abstract syntax tree of CBML the type definitions",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
